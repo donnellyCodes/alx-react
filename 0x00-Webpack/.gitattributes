@@ -1,0 +1,5 @@
+# Ensure all text files use LF line endings
+* text=auto
+
+# Node modules are binary and should not be converted
+node_modules/** binary
